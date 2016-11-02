@@ -1,4 +1,4 @@
-##The stories hold diferent copyrights:
+##The stories hold different copyrights:
 
 - The story **"The dragon's wife"** is owned by **Teresita C. G. Nader** (it is not finished yet)
 
