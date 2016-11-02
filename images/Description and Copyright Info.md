@@ -1,4 +1,4 @@
-This images hold diverse copyrights:
+**This images hold diverse copyrights:**
 
 We are waiting for the copyright approval of the "dragon header" image 
 (Note: we still need to add his/her name on a watermark on the image) 
