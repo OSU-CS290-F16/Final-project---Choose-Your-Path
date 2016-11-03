@@ -33,10 +33,11 @@ img:hover {
 	text-align:center;
 	position:relative;
 	overflow:hidden;
+  padding-bottom: 170px
 }
 #page div#header #logo {
 	position:relative;
-	top:20px;
+	top:75px;
 }
 #page div#header ul.navigation {
 	background:transparent url("../images/navigation.png");
@@ -44,10 +45,9 @@ img:hover {
 	background-repeat:no-repeat;
 	list-style-type:none;
 	margin:0;
-	padding:0;
 	height:90px;
 	position:relative;
-	top:13px;
+	top:180px;
 	left:0;
 }
 #page div#header ul.navigation li {
@@ -65,7 +65,7 @@ img:hover {
 	color:#311a0b;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 28px;
+	padding:0 100px;
 	text-shadow:0 1px 0 #e5c288;
 	display:block;
 }
@@ -76,9 +76,9 @@ img:hover {
 	color:#ffffff;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 28px;
+	padding:0 100px;
 	text-shadow:0 1px 0 #e5c288;
-	background:transparent url("../images/menu.png");
+	
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -89,9 +89,9 @@ img:hover {
 	color:#ffffff;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 28px;
+	padding:0 100px;
 	text-shadow:0 1px 0 #e5c288;
-	background:transparent url("../images/menu.png");
+
 	background-position:center center;
 	background-repeat:no-repeat;
 }
