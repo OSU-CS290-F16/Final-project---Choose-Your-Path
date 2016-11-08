@@ -18,16 +18,14 @@ to his beloved but the dragon king denaied to give his beloved woman to another 
 With a broken heart the young woman ended up killing herself, as a punishment the skyes aprisionaron a los dragones en el cielo, nunca mas
 podrian bajar a donde los humanos. 
 
-(Continue button)-->
---------------------------------------
++Continue button->
 
 Personalize your character:
 -You name is: "name"
 
 
---------------------------------------
 
-Dialog:
+dialog:
 You see this house, "name" when your father was alive he wanted you to live peacefully without worring about money
 so he begun to build this place for you and your mother, unfortunatlly they both died in that horrible accident and he
 couldn't finish the task. I love you, "name" since the first time I saw you when you were a little girl and all this
@@ -62,3 +60,7 @@ Went towards the mill near the river
 
 3-choice
 Went towards the forest
+
+
+
+
