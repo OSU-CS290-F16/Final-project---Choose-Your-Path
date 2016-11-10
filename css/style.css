@@ -56,7 +56,7 @@ img:hover {
 	text-align:center;
 }
 #page div#header ul.navigation li.first {
-	margin:0 0 0 50px;
+	margin:0 auto;
 }
 #page div#header ul.navigation li a {
 	font-family:Volkhov;
@@ -65,7 +65,7 @@ img:hover {
 	color:#311a0b;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 100px;
+	padding:0 105px;
 	text-shadow:0 1px 0 #e5c288;
 	display:block;
 }
@@ -76,7 +76,7 @@ img:hover {
 	color:#ffffff;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 100px;
+	padding:0 105px;
 	text-shadow:0 1px 0 #e5c288;
 
 	background-position:center center;
@@ -89,7 +89,7 @@ img:hover {
 	color:#ffffff;
 	text-transform:uppercase;
 	text-decoration:none;
-	padding:0 100px;
+	padding:0 105px;
 	text-shadow:0 1px 0 #e5c288;
 	background-position:center center;
 	background-repeat:no-repeat;
