@@ -190,6 +190,12 @@ img:hover {
 #page #body div.featured div.section a.Play:hover {
 	background:url("../images/button.png");
 }
+
+a.Play:active {
+  background-color: inherit;
+  transform: translateY(4px);
+}
+
 #page #body div#content {
 	width:630px;
 	float:left;
