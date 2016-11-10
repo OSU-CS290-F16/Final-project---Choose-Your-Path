@@ -523,3 +523,29 @@ img:hover {
 	color:#ffffff;
 	text-decoration:underline;
 }
+
+main {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 100px 20px;
+  min-height: 300px;
+}
+
+.sectionAbout{
+    position: relative;
+}
+
+.aboutUs{
+    background: rgba(145, 159, 29, 0.3);
+    position: relative;
+    width: 300px;
+    min-height: 300px;
+    font-size: 24px;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+
+.links{
+    position: relative;
+    bottom: 0px;
+}
