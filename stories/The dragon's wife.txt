@@ -1,22 +1,23 @@
+Test 1
 Title: The dragon's wife
 Author: Teresita C. G. Nader
 
 Prolog:
 There was an acient time were humans and dragons coeaxisted pacefully, the dragons
 were considered like gods for the poeple. They ruled the skyes and protected all humans from danger.
-There was only one rule, the love between dragons and humans was forviden. Dragons were able to take human form 
+There was only one rule, the love between dragons and humans was forviden. Dragons were able to take human form
 and live within humans, but they were not allow to marry humans. The only tought that the dragon family could be
 mixed with the impure humans was unthinkable. There was one dragon king that ruled the skies with iron hand
 and battled with fiery courage. No human, nor even dragons could face him in battle, but his heart was has dark
-as the sky in the night.  
+as the sky in the night.
 One day while he was in battle he got wounded to not appear weak in front of his peers he tranformed into human form
-and went to the healying waters of the east(west)-choose later- 
+and went to the healying waters of the east(west)-choose later-
 There he meet a beutiful young woman, and he felt in love with her. He kidnapped her and brought her to the dragon
 kingdom. Night after night, she rejected his love. She was in love with another man. She begged every night to return
 to his beloved but the dragon king denaied to give his beloved woman to another man.
 
 With a broken heart the young woman ended up killing herself, as a punishment the skyes aprisionaron a los dragones en el cielo, nunca mas
-podrian bajar a donde los humanos. 
+podrian bajar a donde los humanos.
 
 +Continue button->
 
@@ -38,10 +39,10 @@ You heard screams and you...
 
 1-choice
 Went towards the town:
-The town is on fire, the villagers run desperately trying to rscue their families and posesions from the houses on fire. An army of man dressed with golden armaduras 
-saquean la ciudad, pero no parecen ladrones comunes, y de hecho no parecen llevarse nada de las casas. You wonder what is happening when a soldier notice you and 
-begins to chase you. You now remember a story your granfather use to tell you about man dressed has the sun, those man dressed on golden armaduras are the dragon 
-soldiers. But weren't dragons atraados en su palacio del cielo? Nadie ha visto un dragon desde hace mas decadas. 
+The town is on fire, the villagers run desperately trying to rscue their families and posesions from the houses on fire. An army of man dressed with golden armaduras
+saquean la ciudad, pero no parecen ladrones comunes, y de hecho no parecen llevarse nada de las casas. You wonder what is happening when a soldier notice you and
+begins to chase you. You now remember a story your granfather use to tell you about man dressed has the sun, those man dressed on golden armaduras are the dragon
+soldiers. But weren't dragons atraados en su palacio del cielo? Nadie ha visto un dragon desde hace mas decadas.
 	1.1 - Choice
 	Confront the soldier
 		1.11 - Choice
@@ -60,7 +61,3 @@ Went towards the mill near the river
 
 3-choice
 Went towards the forest
-
-
-
-
