@@ -133,7 +133,7 @@ img:hover {
 	top:20px;
 	left:20px;
 }
-#page #body div.featured div.section h2 {
+#page #body div.featured div.section h2  {
 	margin:0;
 	font-family:Volkhov;
 	font-size:27px;
@@ -530,6 +530,13 @@ a.Play:active {
 	text-decoration:underline;
 }
 
+
+
+
+
+
+
+
 main {
   display: inline-flex;
   flex-wrap: wrap;
@@ -541,8 +548,43 @@ main {
     position: relative;
 }
 
+.group{
+
+}
+
+.group{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin: 0;
+    font-family: Volkhov;
+    font-size: 27px;
+    color: #fbc316;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-shadow: 2px 2px 5px #120c0b;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 100px 20px;
+  min-height: 300px;
+}
+
+.content {
+  /*display: inline-block;*/
+  flex-wrap: wrap;
+  padding: 20px 20px 100px 20px;
+  min-height: 300px;
+}
+
 .aboutUs{
-    background: rgba(145, 159, 29, 0.3);
+    display: inline-block;
     position: relative;
     width: 300px;
     min-height: 300px;
@@ -550,8 +592,13 @@ main {
     font-weight: 200;
     word-wrap: break-word;
 }
-
-.links{
-    position: relative;
+/*
+.aboutUs .links{
+    padding-top: 60px;
+    font-family: sans-serif;
+    position: absolute;
     bottom: 0px;
-}
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}*/
