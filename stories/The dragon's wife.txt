@@ -27,8 +27,8 @@ Personalize your character:
 dialog:
 You see this house, "name" when your father was alive he wanted you to live peacefully without worrying about money
 so he begun to build this place for you and your mother, unfortunately they both died in that horrible accident and he
-couldn't finish the task. I love you, "name" since the first time I saw you when you were a little girl and all these
-years taking care of you have been wonderful, but I am very old and my time is counted. My dear niece I want you to have
+couldn't finish the task. I love you, "name" since the first time I saw you when you were a little and all these
+years taking care of you have been wonderful, but I am very old and my time is counted. My dear "name" I want you to have
 this house, and live a happy life like your father and mother wanted for you.
 
 Your grandfather died a few days later. As usual you went to the river to take a walk, but something was different this time...
