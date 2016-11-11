@@ -3,21 +3,19 @@ Title: The dragon's wife
 Author: Teresita C. G. Nader
 
 Prolog:
-There was an acient time were humans and dragons coeaxisted pacefully, the dragons
-were considered like gods for the poeple. They ruled the skyes and protected all humans from danger.
-There was only one rule, the love between dragons and humans was forviden. Dragons were able to take human form
-and live within humans, but they were not allow to marry humans. The only tought that the dragon family could be
-mixed with the impure humans was unthinkable. There was one dragon king that ruled the skies with iron hand
-and battled with fiery courage. No human, nor even dragons could face him in battle, but his heart was has dark
-as the sky in the night.
-One day while he was in battle he got wounded to not appear weak in front of his peers he tranformed into human form
-and went to the healying waters of the east(west)-choose later-
-There he meet a beutiful young woman, and he felt in love with her. He kidnapped her and brought her to the dragon
+There was an ancient time when humans and dragons coexisted peacefully, the dragons
+were considered gods to the people. They ruled the skies and protected all humans from danger.
+There was only one rule, love between dragons and humans was forbidden. Dragons were able to take human form
+and live with humans, but they were not allowing to marry humans. The mere thought that dragon families could be
+mixed with the impure humans was unthinkable. There was one dragon king that ruled the skies with an iron fist
+and battled with fiery courage. No human, nor even dragons could face him in battle, but his heart was dark as the sky in the night.
+One day while he was in battle he got wounded, to not appear weak in front of his peers he transformed into human form
+and went to the healing waters of the (east)(west)-choose later-
+There he meets a beautiful young woman, and he fell in love with her. He kidnapped her and brought her to the dragon
 kingdom. Night after night, she rejected his love. She was in love with another man. She begged every night to return
-to his beloved but the dragon king denaied to give his beloved woman to another man.
+to his beloved but the dragon king denied to give his beloved woman to another man.
 
-With a broken heart the young woman ended up killing herself, as a punishment the skyes aprisionaron a los dragones en el cielo, nunca mas
-podrian bajar a donde los humanos.
+With a broken heart the young woman ended up killing herself, as a punishment the skies imprisoned the dragons in the sky. Never more would they be able to come down to where the humans were.
 
 +Continue button->
 
@@ -27,22 +25,22 @@ Personalize your character:
 
 
 dialog:
-You see this house, "name" when your father was alive he wanted you to live peacefully without worring about money
-so he begun to build this place for you and your mother, unfortunatlly they both died in that horrible accident and he
-couldn't finish the task. I love you, "name" since the first time I saw you when you were a little girl and all this
+You see this house, "name" when your father was alive he wanted you to live peacefully without worrying about money
+so he begun to build this place for you and your mother, unfortunately they both died in that horrible accident and he
+couldn't finish the task. I love you, "name" since the first time I saw you when you were a little girl and all these
 years taking care of you have been wonderful, but I am very old and my time is counted. My dear niece I want you to have
 this house, and live a happy life like your father and mother wanted for you.
 
-Your grandfather died a few days later. As asual you went to the river to take a walk, but something was different this time...
+Your grandfather died a few days later. As usual you went to the river to take a walk, but something was different this time...
 You heard screams and you...
 
 
 1-choice
-Went towards the town:
-The town is on fire, the villagers run desperately trying to rscue their families and posesions from the houses on fire. An army of man dressed with golden armaduras
-saquean la ciudad, pero no parecen ladrones comunes, y de hecho no parecen llevarse nada de las casas. You wonder what is happening when a soldier notice you and
-begins to chase you. You now remember a story your granfather use to tell you about man dressed has the sun, those man dressed on golden armaduras are the dragon
-soldiers. But weren't dragons atraados en su palacio del cielo? Nadie ha visto un dragon desde hace mas decadas.
+Go towards the town:
+The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor
+raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and
+begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragon
+soldiers. But weren't dragons trapped in their palaces in the skies? Nobody has seen a dragon since decades ago.
 	1.1 - Choice
 	Confront the soldier
 		1.11 - Choice
