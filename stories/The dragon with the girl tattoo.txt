@@ -1,0 +1,90 @@
+Test 1
+Title: The dragon's wife
+Author: Teresita C. G. Nader
+
+Prolog:
+There was an ancient time when humans and dragons coexisted peacefully, the dragons
+were considered gods to the people. They ruled the skies and protected all humans from danger.
+There was only one rule, love between dragons and humans was forbidden. Dragons were able to take human form
+and live with humans, but they were not allow to marry humans. The mere thought that dragon families could be
+mixed with the impure humans was unthinkable. There was one dragon king that ruled the skies with an iron clow(garra)
+and battled with fiery courage. No human, nor even dragons could face him in battle, but his heart was dark as the sky in the night.
+One day while he was in battle he got wounded, to not appear weak in front of his (subditos) he transformed into human form
+and went to the healing waterfall of the east.
+There he meets a beautiful young woman, and he fell in love with her. He kidnapped her and brought her to the dragon
+kingdom. Night after night, she rejected his love. She was in love with another man. She begged every night to return
+to his beloved but the dragon king denied to give his beloved woman to another man.
+
+With a broken heart the young woman ended up killing herself, as a punishment the skies imprisoned the dragons in the sky. Never more would they be able to come down to where the humans were.
+
++Continue button->
+
+Personalize your character:
+-You name is: "name"
+
+
+
+dialog:
+You see this house, "name" when your father was alive he wanted you to live peacefully without worrying about money
+so he begun to build this place for you and your mother, unfortunately they both died in that horrible accident and he
+couldn't finish the task. I love you, "name" since the first time I saw you when you were little and all these
+years taking care of you have been wonderful, but I am very old and my time is counted. My dear "name" I want you to have
+this house, and live a happy life like your father and mother wanted for you.
+
+Your grandfather died a few days later. As usual you went to the river to take a walk, but something was different this time...
+You heard screams and you...
+
+
+1-choice
+Go towards the town:
+The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor
+raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and
+begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armors are the dragon's
+soldiers. 
+	1.1 - Choice: Confront the soldier
+			Before you can move a big fire falls from the sky and in a secon all the soldiers are gone. 
+			There is no trace of them, not even a scale. Sunderly you hear that strange noice like screams. But nobody else
+			seems to notice it. You follow the noice till you reach a beutiful waterfalls. A la orilla de las waterfalls se alcansa
+			a ver la sombra de un hombre. Los gritos que habias estado escuchando provienen de su dirreccion. Al acercarte
+			mas al cuerpo, llegas a persivir el olor de sangre. Al parecer el hombre a la horilla del agua esta gravemente herido.
+			    -Choice: Heal the man - Ending:
+	1.2 - Choice: Run towards the forest
+		1.21 - Choice
+			
+			    -Choice: Rob him
+	1.3- Choice: Hide from the soldier 
+		1.31 - Choice
+			Before you can move a big fire falls from the sky and in a secon all the soldiers are gone. 
+			There is no trace of them, not even a scale. Sunderly you hear that strange noice like screams. But nobody else
+			seems to notice it. You follow the noice till you reach a beutiful waterfalls. A la orilla de las waterfalls se alcansa
+			a ver la sombra de un hombre. Los gritos que habias estado escuchando provienen de su dirreccion. Al acercarte
+			mas al cuerpo, llegas a persivir el olor de sangre. Al parecer el hombre a la horilla del agua esta gravemente herido.
+				-Choice: Kill the man
+
+2-choice
+Went towards the mill near the river
+	//Hay soldados por todo el molino. Uno de los soldados toma a la hija del molinero y amezana con cortar su garganta si
+	el hombre no le entrega alguna informacion util, pero el viejo molinero no puede hacer mas que rogar a los pies
+	del soldado por la vida de su hija, insistiendo que el no sabe que es lo que estan buscando ni donde se encuentra.
+	El soldado furioso lanza a la muchacha al rio. 
+			-Choice: Rescue her
+			
+			-Choice: Attack the soldier
+			
+			-Choice: Hide till the soldiers are gone
+3-choice
+Went towards the forest
+	Llegas hasta unas cascadas. Ecuchas el melodioso sonido de los pajaros cantando, cuando derrepente el estruendoso sonido de un rugido
+	rompe la calma. Al botear notas que un gigantesco dragon esta siendo atrapado por unos soldados. Esos soldados se parecen
+	a los soldados de las historias que tu abuelo te contaba. Los doldados dragones, bestidos de oro brillante como el sol. 
+	cuatro soldados tienen atado al dragon con cadenas, puedes notar que tratan de mantenerlo quieto jalando de las cadenas para 
+	dejarlo en el piso. Yace la pobre criatura en el suelo con sus escamas negras cubiertas de sangre por el esfuerzo que ha hecho por salir de las
+	cadenas que lo aprisionan. 
+		-Choice: Help tyhem to kill the dragon, after all dragons are evil creatures
+		
+		-Choice: Distract the soldiers and free the dragon. Nobody deserves such treatment
+		
+		-Choice: The soldiers are too busy taking care of the dragon. I can take their golden shiels and sell
+		them at a very good price.
+		
+		-Choice: 
