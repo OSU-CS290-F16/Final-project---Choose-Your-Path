@@ -1,9 +1,9 @@
-##The stories hold different copyrights:
+##Storie(s) Copyright:
+This section was created to facilitate to *The Lovelaces Team* the access to the stories copyright information. This information may be applied to the web page *Choose Your Path* according to the team's judgment. 
+@TeresitaCGNader :shipit: Please add here any relevant information about stories' copyright.
 
-- The story **"The dragon's wife"** is owned by **Teresita C. G. Nader** (it is not finished yet)
 
-- The story **"STORY TITLE HERE"** is owned by **OWNER'S NAME HERE**
+- **The dragon with the girl tattoo** by **Teresita C. G. Nader**
 
-- The story **"STORY TITLE HERE"** is owned by **OWNER'S NAME HERE**
 
-_(Note: we plan to have at least 3 stories)_
+
