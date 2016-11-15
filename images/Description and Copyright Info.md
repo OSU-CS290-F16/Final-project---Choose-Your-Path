@@ -6,6 +6,6 @@ This section was created to facilitate to *The Lovelaces Team* the access to the
 
 ###Images:
 
-- **Crisis of the Kingdom**(dragon header) by **Notome**
-- **Fire-eek07e**(Fire Footer) by **www.alamy.com** 
+- **Crisis of the Kingdom**(dragon header) by **Notome**(http://notome.deviantart.com)
+- **Fire-eek07e**(fire footer) by **Alamy**(http://www.alamy.com) 
 - All the other images are either created by *The Lovelaces* or are considered public domain for non-commercial activities
