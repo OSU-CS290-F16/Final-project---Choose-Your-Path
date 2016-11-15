@@ -4,6 +4,8 @@ This section was created to facilitate to *The Lovelaces Team* the access to the
 :shipit: Please add here any relevant information about stories' copyright.
 
 
+
+
 Stories:
 
 - **The dragon with the girl tattoo** by **Teresita C. G. Nader**
