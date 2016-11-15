@@ -1,5 +1,4 @@
-Test 1
-Title: The dragon's wife
+﻿Title: A Day Without Dragons
 Author: Teresita C. G. Nader
 
 Prolog:

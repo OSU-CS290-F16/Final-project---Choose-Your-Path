@@ -6,7 +6,7 @@ This section was created to facilitate to *The Lovelaces Team* the access to the
 
 ###Stories:
 
-- **The dragon with the girl tattoo** by **Teresita C. G. Nader**
+- **A Day Without Dragons** by **Teresita C. G. Nader**
 
 
 
