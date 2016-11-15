@@ -1,9 +1,11 @@
-##This images hold diverse copyrights:
+##Images Copyright:
+This section was created to facilitate to *The Lovelaces Team* the access to the images copyright information. This information may be applied to the web page *Choose Your Path* according to the team's judgment. 
 
-We are waiting for the copyright approval of the **"dragon header"** image 
-_(Note: we still need to add his/her name on a watermark on the image)_
+:shipit: Please add here any relevant information about images' copyright.
 
-and 
 
-all the other images are public domain for **non-commercial activities** or images created by the group members of **The Lovelaces**.
+###Images:
 
+- **Crisis of the Kingdom**(dragon header) by **Notome**
+- **Fire-eek07e**(Fire Footer) by **www.alamy.com** 
+- All the other images are either created by *The Lovelaces* or are considered public domain for non-commercial activities
