@@ -602,14 +602,3 @@ main {
     display: none;
     cursor: pointer;
 }*/
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
