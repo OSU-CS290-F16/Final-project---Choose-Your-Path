@@ -180,15 +180,27 @@ img:hover {
 	text-decoration:none;
 }
 #page #body div.featured div.section a.Play {
-	background:url("../images/button.png");
+	background:url("../images/button Play.png");
 	text-decoration:none;
-	width:222px;
+	width:238px;
 	height:92px;
 	display:block;
 	margin:0 auto;
 }
 #page #body div.featured div.section a.Play:hover {
-	background:url("../images/button.png");
+	background:url("../images/button Play.png");
+}
+
+#page #body div.featured div.section a.createGame {
+	background:url("../images/button createGame.png");
+	text-decoration:none;
+	width:214px;
+	height:92px;
+	display:block;
+	margin:0 auto;
+}
+#page #body div.featured div.section a.createGame:hover {
+	background:url("../images/button createGame.png");
 }
 
 a.Play:active {
@@ -348,7 +360,7 @@ a.Play:active {
 	margin:30px 0 0 0;
 }
 #page #body div.content ul li div a.Play {
-	background:url("../images/button.png");
+	background:url("../images/button Play.png");
 	display:block;
 	height:66px;
 	margin:25px 0 15px 0;
@@ -356,7 +368,18 @@ a.Play:active {
 	width:222px;
 }
 #page #body div.content ul li div a.Play:hover {
-	background:url("../images/button.png");
+	background:url("../images/button Play.png");
+}
+#page #body div.content ul li div a.createGame {
+	background:url("../images/button createGame.png");
+	display:block;
+	height:66px;
+	margin:25px 0 15px 0;
+	text-decoration:none;
+	width:222px;
+}
+#page #body div.content ul li div a.createGame:hover {
+	background:url("../images/button createGame.png");
 }
 #page #body div.content ul.blog {
 	list-style-type:none;
@@ -432,6 +455,22 @@ a.Play:active {
 	display:block;
 }
 #page #body div.content ul.blog li a.Play:hover {
+	font-family:Georgia;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	color:#ff9e3f;
+}
+#page #body div.content ul.blog li a.createGame {
+	font-family:Georgia;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	color:#ff3f3f;
+	margin:30px 0 0 0;
+	display:block;
+}
+#page #body div.content ul.blog li a.createGame:hover {
 	font-family:Georgia;
 	font-size:14px;
 	font-weight:bold;
