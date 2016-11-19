@@ -6,7 +6,7 @@ This section was created to facilitate to *The Lovelaces Team* the access to the
 
 ###Stories:
 
-- **A Day Without Dragons** by **Teresita C. G. Nader**
+- **A Day Without Dragons** by **Teresita C. G. Nader** and **Christa Wright**
 
 
 
