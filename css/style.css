@@ -574,8 +574,6 @@ a.Play:active {
 
 
 
-
-
 main {
   display: inline-flex;
   flex-wrap: wrap;
@@ -587,9 +585,6 @@ main {
     position: relative;
 }
 
-.group{
-
-}
 
 .group{
     margin-top: 20px;
@@ -608,15 +603,9 @@ h2{
     display: block;
     text-shadow: 2px 2px 5px #120c0b;
 }
-main {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 20px 100px 20px;
-  min-height: 300px;
-}
+
 
 .content {
-  /*display: inline-block;*/
   flex-wrap: wrap;
   padding: 20px 20px 100px 20px;
   min-height: 300px;
@@ -626,18 +615,20 @@ main {
     display: inline-block;
     position: relative;
     width: 300px;
-    min-height: 300px;
+    min-height: 600px;
     font-size: 24px;
     font-weight: 200;
     word-wrap: break-word;
 }
-/*
-.aboutUs .links{
-    padding-top: 60px;
-    font-family: sans-serif;
+
+
+#links{
     position: absolute;
-    bottom: 0px;
-    font-size: 30px;
-    display: none;
-    cursor: pointer;
-}*/
+    bottom: 0;
+}
+
+#links a{
+    background-color: rgba(0, 0, 0);
+    color: #fbc316;
+    text-decoration: none;
+}
