@@ -612,6 +612,7 @@ h2{
 }
 
 .aboutUs{
+    float: left;
     display: inline-block;
     position: relative;
     width: 300px;
@@ -619,6 +620,10 @@ h2{
     font-size: 24px;
     font-weight: 200;
     word-wrap: break-word;
+}
+
+.picture{
+
 }
 
 
