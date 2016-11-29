@@ -65,6 +65,34 @@ app.use(bodyParser.json());
 // Serve static files from public/.
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Render the home page for the root URL path ('/').
+app.get('/', function (req, res) {
+  res.render('home-page', {
+    pageTitle: 'Home'
+  });
+});
+
+// Render the home page for the root URL path ('/home').
+app.get('/home', function (req, res) {
+  res.render('home-page', {
+    pageTitle: 'Home'
+  });
+});
+
+// Render the about page for the root URL path ('/about').
+app.get('/about', function (req, res) {
+  res.render('about-page', {
+    pageTitle: 'About'
+  });
+});
+
+// Render the game page for the root URL path ('/games').
+app.get('/games', function (req, res) {
+  res.render('games-page', {
+    pageTitle: 'Games'
+  });
+});
+
 // Render the index page for the root URL path ('/').
 /*app.get('/', function (req, res) {
   res.render('index-page', {
