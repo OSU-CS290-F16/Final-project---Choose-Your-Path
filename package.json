@@ -1,0 +1,20 @@
+{
+  "name": "final-project---choose-your-path",
+  "version": "1.0.0",
+  "description": "This code was created in order to produce a Games Web Page. Our Web Page focuses on Choose Your Path games where the user will be able to play a multiple ending game and create its own. The user will also be able to view the percentage of times the user got a specific ending.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeresitaCGNader/Local-Final-Project---Choose-Your-Path.git"
+  },
+  "author": "Teresita C. G. Nader and Christa Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeresitaCGNader/Local-Final-Project---Choose-Your-Path/issues"
+  },
+  "homepage": "https://github.com/TeresitaCGNader/Local-Final-Project---Choose-Your-Path#readme"
+}
