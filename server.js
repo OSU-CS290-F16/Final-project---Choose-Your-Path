@@ -12,27 +12,26 @@ var port = process.env.PORT || 3000;
  * Read info about the MySQL connection from the environment and use it to
  * make the connection.
  */
-var mysqlHost = 'mysql.cs.orst.edu';
-var mysqlUser = 'cs290_wrighch3';
-var mysqlPassword = 2351;
-var mysqlDB = 'cs290_wrighch3';
-var mysqlConnection = mysql.createConnection({
-  host: mysqlHost,
-  user: mysqlUser,
-  password: mysqlPassword,
-  database: mysqlDB
-});
-
+ var mysqlHost = 'mysql.cs.orst.edu';
+ var mysqlUser = 'cs290_guzmannt';
+ var mysqlPassword = '1287';
+ var mysqlDB = 'cs290_guzmannt';
+ var mysqlConnection = mysql.createConnection({
+   host: mysqlHost,
+   user: mysqlUser,
+   password: mysqlPassword,
+   database: mysqlDB
+ });
 /*
  * Make a connection to our MySQL database.  This connection will persist for
  * as long as our server is running.
  */
-/*mysqlConnection.connect(function(err) {
+mysqlConnection.connect(function(err) {
   if (err) {
     console.log("== Unable to make connection to MySQL Database.")
     throw err;
   }
-});*/
+});
 
 /*
  * Do some preprocessing on our data to make special note of people 65 or
