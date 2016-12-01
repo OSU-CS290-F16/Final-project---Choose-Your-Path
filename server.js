@@ -12,10 +12,10 @@ var port = process.env.PORT || 3000;
  * Read info about the MySQL connection from the environment and use it to
  * make the connection.
  */
-var mysqlHost = 'mysql.cs.orst.edu';
-var mysqlUser = 'cs290_wrighch3';
-var mysqlPassword = 2351;
-var mysqlDB = 'cs290_wrighch3';
+var mysqlHost = process.env.MYSQL_HOST;
+var mysqlUser = process.env.MYSQL_USER;
+var mysqlPassword = process.env.MYSQL_PASSWORD;
+var mysqlDB = process.env.MYSQL_DB;
 var mysqlConnection = mysql.createConnection({
   host: mysqlHost,
   user: mysqlUser,
