@@ -79,6 +79,13 @@ app.get('/home', function (req, res) {
   });
 });
 
+// Render the home page for the root URL path ('/home.html').
+app.get('/home.html', function (req, res) {
+  res.render('home-page', {
+    pageTitle: 'Home'
+  });
+});
+
 // Render the about page for the root URL path ('/about').
 app.get('/about', function (req, res) {
   res.render('about-page', {
@@ -86,8 +93,22 @@ app.get('/about', function (req, res) {
   });
 });
 
+// Render the about page for the root URL path ('/about.html').
+app.get('/about.html', function (req, res) {
+  res.render('about-page', {
+    pageTitle: 'About'
+  });
+});
+
 // Render the game page for the root URL path ('/games').
 app.get('/games', function (req, res) {
+  res.render('games-page', {
+    pageTitle: 'Games'
+  });
+});
+
+// Render the game page for the root URL path ('/games.html').
+app.get('/games.html', function (req, res) {
   res.render('games-page', {
     pageTitle: 'Games'
   });
