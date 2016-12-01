@@ -637,3 +637,10 @@ h2{
     color: #fbc316;
     text-decoration: none;
 }
+
+.error-message {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin: 20px;
+}
