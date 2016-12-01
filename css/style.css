@@ -636,3 +636,11 @@ h2{
     color: #fbc316;
     text-decoration: none;
 }
+
+.error-message{
+    background-color: purple;
+}
+
+.cute{
+    max-width: 25%;
+}
