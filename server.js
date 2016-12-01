@@ -27,12 +27,12 @@ var mysqlConnection = mysql.createConnection({
  * Make a connection to our MySQL database.  This connection will persist for
  * as long as our server is running.
  */
-mysqlConnection.connect(function(err) {
+/*mysqlConnection.connect(function(err) {
   if (err) {
     console.log("== Unable to make connection to MySQL Database.")
     throw err;
   }
-});
+});*/
 
 /*
  * Do some preprocessing on our data to make special note of people 65 or

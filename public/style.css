@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background:transparent url("../images/dragon header.jpg");
+    background:transparent url("images/dragon header.jpg");
     background-position:top center;
     background-repeat:no-repeat;
     background-color:#000000;
@@ -21,7 +21,7 @@ img:hover {
 	filter:alpha(opacity=80);/* Needed for IE8 and old versions */
 }
 #page {
-	background:transparent url("../images/Fire Footer.jpg");
+	background:transparent url("images/Fire Footer.jpg");
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	width:100%;
@@ -40,7 +40,7 @@ img:hover {
 	top:75px;
 }
 #page div#header ul.navigation {
-	background:transparent url("../images/navigation.png");
+	background:transparent url("images/navigation.png");
 	background-position:center center;
 	background-repeat:no-repeat;
 	list-style-type:none;
@@ -103,7 +103,7 @@ img:hover {
 #page #body div.featured {
 	width:884px;
 	height:380px;
-	background:transparent url("../images/bg-featured.png");
+	background:transparent url("images/bg-featured.png");
 	background-position:center center;
 	background-repeat:no-repeat;
 	padding:2px;
@@ -126,7 +126,7 @@ img:hover {
 	width:376px;
 	height:298px;
 	padding:25px;
-	background:transparent url("../images/bg-featured-text-content.png");
+	background:transparent url("images/bg-featured-text-content.png");
 	background-position:center center;
 	background-repeat:no-repeat;
 	position:absolute;
@@ -180,7 +180,7 @@ img:hover {
 	text-decoration:none;
 }
 #page #body div.featured div.section a.Play {
-	background:url("../images/button Play.png");
+	background:url("images/button Play.png");
 	text-decoration:none;
 	width:238px;
 	height:92px;
@@ -188,11 +188,11 @@ img:hover {
 	margin:0 auto;
 }
 #page #body div.featured div.section a.Play:hover {
-	background:url("../images/button Play.png");
+	background:url("images/button Play.png");
 }
 
 #page #body div.featured div.section a.createGame {
-	background:url("../images/button createGame.png");
+	background:url("images/button createGame.png");
 	text-decoration:none;
 	width:214px;
 	height:92px;
@@ -200,7 +200,7 @@ img:hover {
 	margin:0 auto;
 }
 #page #body div.featured div.section a.createGame:hover {
-	background:url("../images/button createGame.png");
+	background:url("images/button createGame.png");
 }
 
 a.Play:active {
@@ -360,7 +360,7 @@ a.Play:active {
 	margin:30px 0 0 0;
 }
 #page #body div.content ul li div a.Play {
-	background:url("../images/button Play.png");
+	background:url("images/button Play.png");
 	display:block;
 	height:66px;
 	margin:25px 0 15px 0;
@@ -368,10 +368,10 @@ a.Play:active {
 	width:222px;
 }
 #page #body div.content ul li div a.Play:hover {
-	background:url("../images/button Play.png");
+	background:url("images/button Play.png");
 }
 #page #body div.content ul li div a.createGame {
-	background:url("../images/button createGame.png");
+	background:url("images/button createGame.png");
 	display:block;
 	height:66px;
 	margin:25px 0 15px 0;
@@ -379,7 +379,7 @@ a.Play:active {
 	width:222px;
 }
 #page #body div.content ul li div a.createGame:hover {
-	background:url("../images/button createGame.png");
+	background:url("images/button createGame.png");
 }
 #page #body div.content ul.blog {
 	list-style-type:none;
