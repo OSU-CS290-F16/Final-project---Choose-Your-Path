@@ -21,7 +21,7 @@ img:hover {
 	filter:alpha(opacity=80);/* Needed for IE8 and old versions */
 }
 #page {
-	background:transparent url("../images/Fire Footer.jpg");
+    position: relative;
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	width:100%;
@@ -500,7 +500,9 @@ a.Play:active {
 	padding:0 5px;
 	color:#565756;
 }
-#page #footer {
+
+#footer {
+    /*background:transparent url("../images/Fire Footer.jpg");*/
 	width:888px;
 	margin:0 auto;
 	overflow:hidden;
