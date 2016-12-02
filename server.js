@@ -113,6 +113,18 @@ app.get('/games.html', function (req, res) {
   });
 });
 
+app.get('/OurGame.html', function (req, res) {
+  res.render('OurGame-page', {
+    pageTitle: 'A Day Without Dragons'
+  });
+});
+
+app.get('/OurGame', function (req, res) {
+  res.render('OurGame-page', {
+    pageTitle: 'A Day Without Dragons'
+  });
+});
+
 // Render the index page for the root URL path ('/').
 /*app.get('/', function (req, res) {
   res.render('index-page', {
