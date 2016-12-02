@@ -31,6 +31,7 @@ As usual you went to the river to take a walk, but something was different this 
 You heard screams, and you...(Choose what you would like to do)
 
 1- Choice: Go towards the town
+Dialog 1:
 	The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragons' soldiers.
 
 	1.1 - Choice: Confront the soldier
@@ -48,6 +49,7 @@ You heard screams, and you...(Choose what you would like to do)
 
 
 2- Choice: Go towards the farm
+Dialog 2:
 			As you approach the farm, you see that the soldiers are setting the farm ablaze. Farm animals are escaping from the barn, and running towards a near by field, where no soldiers are posted. Towards the entrance of the stables is an old man, stabbed through the heart, pegged to a wall. His eyes were widened in horror. A soldier must have stabbed him, as he was trying to free his animals. You hear a woman's scream, and notice a few yards off group of soldiers ripping away her clothes.
 
 	2.1 - Choice: Use the animals to distract the soldiers, while you rescue the girl
@@ -60,6 +62,7 @@ You heard screams, and you...(Choose what you would like to do)
 			You hide behind a nearby tree and shout "The royal guard is coming!" The guards stop harassing the girl, and mumble to each other before running off into the woods. The girl looks around in panic, and runs down the road towards in the direction of both a near-by town, and where the royal guard would have come from. The farm's buildings are crashing down as the flames lick aware at their framework, you start to hear screams and run towards the building they are coming from. As you approach you notice an animal stumbling through the flames. You come closer, not wanting to enter a burning building, but are concerned about the screaming animal. As the animal begins to come closer out of the flames, you realize that it is an injured dragon, with a spear through it's wing!
 
 3- Choice: Go towards the forest
+Dialog 3:
 	You run into the forest, you heart is pumping, vines are tearing at you as you hazardously dive deeper and deeper into the forest. You see a group of soldiers being attacked by a grizzly bear. Not far away you see three fur covered lumps on the ground, the bear's cubs. Their body's looked deformed because their bones had been broken. After some struggle, the soldiers are able to kill the bear, because she lost so much blood from them stabbing her with their spears. After defeating the bear, one soldier stabs her one more time for good measure, as the soldiers leave they take no notice of the cub's bodies, stepping on them as they walk away.
 
 	3.1 - Choice: Chase the soldiers
