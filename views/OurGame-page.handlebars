@@ -2,21 +2,12 @@
 
 <main>
 <body>
-	{{#each user.story}}
-      {{> todo}}
-    {{/each}}
-
 		<div id="body">
-      <div id="text"> //here text should be what determinates which dialog appears
+      <div id="text"> {{name}}
 			<div id="content">
 				<p>
-					This is about
-				</p>
-				<p>
-					More info. here
-				</p>
-				<p>
-					Info Info
+					Name: {{name}}
+					{{title}} title
 				</p>
 			</div>
 		</div>
