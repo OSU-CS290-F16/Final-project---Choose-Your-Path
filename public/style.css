@@ -644,3 +644,43 @@ h2{
   font-size: 32px;
   margin: 20px;
 }
+
+.game {
+  background-color: #fffe6e;
+  position: relative;
+  width: 300px;
+  min-height: 300px;
+  margin: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.game h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.game-body {
+  padding: 0 20px
+}
+
+.game-list {
+  list-style-type: circle;
+}
+
+.game p {
+  margin: 15px 0;
+}
+
+.game p.indent-wrapped {
+  padding-left: 50px;
+  text-indent: -50px;
+}
+
+.game .choice1,
+.game .choice2,
+.game .choice3 {
+  font-weight: bold;
+}

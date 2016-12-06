@@ -1,15 +1,15 @@
-<section class="todo">
+<section class="game">
   <div class="dismiss-button">&times;</div>
-    <h2>{{what}}</h2>
-    <div class="todo-body">
-      {{#if body.where}}
-        <p class="indent-wrapped"><span class="where">where: </span>{{body.where}}</p>
+    <h2>{{title}}</h2>
+    <div class="game-body">
+      {{#if body.choice2}}
+        <p class="indent-wrapped"><span class="choice2">choice2: </span>{{body.choice2}}</p>
       {{/if}}
-      {{#if body.when}}
-        <p class="indent-wrapped"><span class="when">when: </span>{{body.when}}</p>
+      {{#if body.choice1}}
+        <p class="indent-wrapped"><span class="choice1">choice1: </span>{{body.choice1}}</p>
       {{/if}}
-      {{#if body.who}}
-        <p class="indent-wrapped"><span class="who">who: </span>{{body.who}}</p>
+      {{#if body.choice3}}
+        <p class="indent-wrapped"><span class="choice3">choice3: </span>{{body.choice3}}</p>
       {{/if}}
       {{#if body.details}}
         <p>{{body.details}}</p>
