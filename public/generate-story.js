@@ -1,5 +1,5 @@
 // Grab the todo template from Handlebars.
-var todoTemplate = Handlebars.templates.todo;
+var todoTemplate = Handlebars.templates.gameStructure;
 
 /*
  * This function should create an HTML string representing a new todo note
