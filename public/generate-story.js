@@ -9,15 +9,15 @@ var todoTemplate = Handlebars.templates.gameStructure;
  * is the case, the corresponding portion of the todo note should not be
  * included in the HTML string.
  */
-function generateTodoHTML( title, prolog, dialog, choice1, choice2, choice3) {
+function generateTodoHTML( title) {
     var data = {
         title: title,
-            body: {
-                prolog: prolog,
-                dialog: dialog,
-                choice1: choice2,
-                choice3: choice3
-            }
+            // body: {
+            //     prolog: prolog,
+            //     dialog: dialog,
+            //     choice1: choice2,
+            //     choice3: choice3
+            // }
     }
 
   return todoTemplate(data);
