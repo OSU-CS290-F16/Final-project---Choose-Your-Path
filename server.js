@@ -121,13 +121,24 @@ app.get('/OurGame', function (req, res) {
   });
 });
 
-// Render the index page for the root URL path ('/').
-/*app.get('/', function (req, res) {
-  res.render('index-page', {
-    pageTitle: 'Welcome!'
+// Render the game page for the root URL path ('/dialog1.html').
+app.get('/dialog1.html', function (req, res) {
+  res.render('dialog1-page', {
+    pageTitle: 'Dialog 1'
   });
-});*/
+});
 
+app.get('/dialog2.html', function (req, res) {
+  res.render('dialog2-page', {
+    pageTitle: 'Dialog 2'
+  });
+});
+
+app.get('/ending1.html', function (req, res) {
+  res.render('ending1-page', {
+    pageTitle: 'Ending 2'
+  });
+});
 /*
  * Render the people page for the URL path '/people'.
  */
