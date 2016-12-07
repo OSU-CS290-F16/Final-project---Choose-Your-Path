@@ -77,6 +77,8 @@ Dialog 3:
 
 
 Global choices for endings:
+
+Ending 1:
 -Choice: Help the dragon
 			You hesitantly approach the dragon. It's laborious breathing intimidates you a little, but you proceed to rip some of your clothing, using it to stop the bleeding. The dragon looks at you and nods in thanks. Suddenly, the soldiers appear. You and the dragon are able to defeat the soldiers. He looks at you, and thanks you for helping him. He begins to tell you his story,
 
@@ -92,6 +94,7 @@ Global choices for endings:
 
 			"Do you remember me? You saved my life," said the man. Before you can answer he continues. "I'm the dragon king once again, and have come for you to be my right hand, helping me rule my empire."
 
+Ending 2:
 -Choice: Kill the dragon
 			You remember all the horrible stories about dragons you heard growing up. Fear and hate consume you, and you kill the dragon. Standing in the pooling blood, you hear a commotion as the soldiers appear once again. They immediately surround you. Two men grab you by the shoulders, one puts a cloth over your nose and mouth "You are coming with us." Is the last thing you hear before you lose consciousness.
 
@@ -101,6 +104,7 @@ Global choices for endings:
 
 			The dragon king unbinds you, saying "You will now rule as my right hand, for the deed you did for me."
 
+Ending 3:
 -Choice: Call the soldiers
 			Upon seeing the dragon, panic takes over, and you decide the soldiers must be searching for the dragon. You begin shouting for the soldiers to come. Quickly the soldiers appear and kill the wounded dragon. They then turn on you.
 
