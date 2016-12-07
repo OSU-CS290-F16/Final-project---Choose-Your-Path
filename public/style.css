@@ -851,8 +851,10 @@ a:hover {
 }
 
 #page #body div.endingBox p {
+margin: 10px;
+margin-bottom: 10px;
 font-family:Georgia;
-font-size:14px;
+font-size:17px;
 color:#ffffff;
 text-align:justify;
 line-height:24px;
