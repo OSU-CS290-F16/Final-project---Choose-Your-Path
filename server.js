@@ -68,6 +68,12 @@ app.get('/home', function (req, res) {
   });
 });
 
+app.get('people/home.html', function (req, res) {
+  res.render('home-page', {
+    pageTitle: 'Home'
+  });
+});
+
 // Render the home page for the root URL path ('/home.html').
 app.get('/home.html', function (req, res) {
   res.render('home-page', {
