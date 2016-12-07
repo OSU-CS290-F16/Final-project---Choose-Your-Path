@@ -828,3 +828,33 @@ a:hover {
 .modal-footer .modal-accept-button:hover {
   background-color: #5481e4;
 }
+
+#page #body div.endingBox {
+  height: 653px;
+  width: 888px;
+  margin:0;
+  padding:0;
+  background:transparent url("images/Ending-background.jpg");
+  background-position:top center;
+  background-repeat:no-repeat;
+  background-color:#000000;
+}
+
+#page #body div.endingBox h2 {
+  margin:0;
+	font-family:Volkhov;
+	font-size:27px;
+	height:32px;
+	line-height:32px;
+	color:#fbc316;
+	font-weight:normal;
+}
+
+#page #body div.endingBox p {
+font-family:Georgia;
+font-size:14px;
+color:#ffffff;
+text-align:justify;
+line-height:24px;
+margin-bottom:17px;
+}
