@@ -829,12 +829,29 @@ a:hover {
   background-color: #5481e4;
 }
 
+.para{
+    margin: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.person{
+    font-family:Georgia;
+    font-size:18px;
+    color:#9e8934;
+    text-align:justify;
+    line-height:24px;
+    margin-bottom:25px;
+}
 
 .button {
   float: right;
   display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #9e8934;
   border: none;
   color: #FFFFFF;
   text-align: center;
