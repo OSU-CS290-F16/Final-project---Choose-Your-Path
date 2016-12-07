@@ -612,6 +612,8 @@ h2{
 }
 
 .aboutUs{
+    border: #fbc316;
+    border-style: solid;
     float: left;
     display: inline-block;
     position: relative;
@@ -619,11 +621,13 @@ h2{
     min-height: 600px;
     font-size: 24px;
     font-weight: 200;
+    margin-right: 10px;
+    text-align: center;
     word-wrap: break-word;
 }
 
-.picture{
-
+.aboutUsContent{
+    margin: 10px;
 }
 
 
