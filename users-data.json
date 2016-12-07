@@ -1,0 +1,150 @@
+{
+    "luke": {
+      "name": "Luke Skywalker",
+      "story": [
+        {
+          "title": "A Day Without Dragons",
+          "body": {
+            "prolog": "prolog ",
+            "dialog": "dialog ",
+
+            "choice1": "Go towards the town",
+                "dialog1": "dialog1",
+                    "choice11": "Confront the soldier",
+                        "dialog11": "dialog1.1 ",
+                                "choiceH": "Help the dragon",
+                                    "ending1": "ending1 ",
+                                "choiceK": "Kill the dragon",
+                                    "ending2": "ending2",
+                                "choiceC": "Call the guards",
+                                    "ending3": "ending3",
+                    "choice12": "Run towards the forest",
+                        "dialoge12": "dialoge1.2 ",
+                                "choiceH": "Help the dragon",
+                                    "ending1": "ending1",
+                                "choiceK": "Kill the dragon",
+                                    "ending2": "ending2",
+                                "choiceC": "Call the guards",
+                                    "ending3":"ending3",
+                    "choice13": "Play dead",
+                        "dialog13": " dialog1.3",
+                            "choiceH": "Help the dragon",
+                                "ending1": "ending1",
+                            "choiceK": "Kill the dragon",
+                                "ending2": "ending2",
+                            "choiceC": "Call the guards",
+                                "ending3": "ending3",
+
+            "choice2": "Go towards the farm",
+                "dialog2": "dialog2",
+                    "choice21": "Use the animals to distract the soldiers, while you rescue the girl",
+                        "dialog21": "dialog21 ",
+                            "choiceH": "Help the dragon",
+                                "ending1": "ending1",
+                            "choiceK": "Kill the dragon",
+                                "ending2": "ending2",
+                            "choiceC": "Call the guards",
+                                "ending3": "ending3",
+                    "choice22": "Take the sword from the dead-mans body, and defend the girl",
+                        "dialog22": "dialog22 ",
+                            "choiceH": "Help the dragon",
+                                            "ending1": "ending1",
+                            "choiceK": "Kill the dragon",
+                                            "ending2": "ending2",
+                            "choiceC": "Call the guards",
+                                            "ending3":"ending3",
+                    "choice23": "Hide, and scream that the royal guard is coming",
+                        "dialog23": "dialog23 ",
+                            "choiceH": "Help the dragon",
+                                            "ending1": "ending1",
+                            "choiceK": "Kill the dragon",
+                                            "ending2": "ending2",
+                            "choiceC": "Call the guards",
+                                            "ending3":"ending3",
+
+
+            "choice3": "Go towards the forest",
+            "dialog3": "dialog3",
+                "choice31": "Chase the soldiers",
+                    "dialog31": "ialog31 ",
+                        "choiceH": "Help the dragon",
+                            "ending1": "ending1",
+                        "choiceK": "Kill the dragon",
+                            "ending2": "ending2",
+                        "choiceC": "Call the guards",
+                            "ending3": "ending3",
+                "choice32": "Run in the opposite direction the soldiers had gone",
+                    "dialog32": " dialog32",
+                        "choiceH": "Help the dragon",
+                                        "ending1": "ending1",
+                        "choiceK": "Kill the dragon",
+                                        "ending2": "ending2",
+                        "choiceC": "Call the guards",
+                                        "ending3":"ending3",
+                "choice33": "Burry the body's of the bears.",
+                    "dialog33": "dialog3.3 ",
+                        "choiceH": "Help the dragon",
+                                        "ending1": "nding1",
+                        "choiceK": "Kill the dragon",
+                                        "ending2": "ending2",
+                        "choiceC": "Call the guards",
+                                        "ending3":"ending3",
+
+
+          }
+        },
+      ]
+    },
+
+  "albert": {
+    "name": "Albert Einstein",
+    "notes": [
+      {
+        "what": "Investigate that dumb constant value"
+      }
+    ]
+  },
+
+  "stephen": {
+    "name": "Stephen Curry",
+    "notes": [
+      {
+        "what": "Pick up MVP trophy",
+        "body": {
+          "where": "Bay Bridge Trophy Polishing",
+          "details": "1402 Mandella Parkway, Oakland"
+        }
+      },
+      {
+        "what": "Win another Championship",
+        "body": {
+          "when": "2017",
+          "who": "with the Warriors"
+        }
+      }
+    ]
+  },
+
+  "donald": {
+    "name": "Donald Knuth",
+    "notes": [
+      {
+        "what": "Finish TAOCP Volume 5"
+      },
+      {
+        "what": "Start Volume 6",
+        "body": {
+          "when": "tomorrow",
+          "details": "context free languages"
+        }
+      },
+      {
+        "what": "Start Volume 7",
+        "body": {
+          "when": "Saturday",
+          "details": "compilers"
+        }
+      }
+    ]
+  }
+}}{}
