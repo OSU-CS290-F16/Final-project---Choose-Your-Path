@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `people`;
 CREATE TABLE `people` (
   `userid` varchar(32) NOT NULL,
   `name` varchar(128) DEFAULT NULL,
-  `job` varchar(128) DEFAULT NULL,
+  `title` varchar(128) DEFAULT NULL,
   `age` int(11) DEFAULT NULL,
   PRIMARY KEY (`userid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -96,12 +96,14 @@ app.get('/games', function (req, res) {
   });
 });
 
+
 // Render the game page for the root URL path ('/games.html').
 app.get('/games.html', function (req, res) {
   res.render('games-page', {
     pageTitle: 'Games'
   });
 });
+
 
 app.get('/OurGame.html', function (req, res) {
   res.render('OurGame-page', {
@@ -114,13 +116,6 @@ app.get('/OurGame', function (req, res) {
     pageTitle: 'A Day Without Dragons'
   });
 });
-
-// Render the index page for the root URL path ('/').
-/*app.get('/', function (req, res) {
-  res.render('index-page', {
-    pageTitle: 'Welcome!'
-  });
-});*/
 
 /*
  * Render the people page for the URL path '/people'.
@@ -155,12 +150,11 @@ app.get('/people', function (req, res) {
         people.push({
           userid: row.userid,
           name: row.name,
-          is65OrOlder: row.age >= 65
         });
       });
 
       res.render('games-page', {
-        pageTitle: 'Famous People',
+        pageTitle: 'People',
         people: people
       });
 
@@ -231,7 +225,7 @@ app.get('/people/:person', function (req, res, next) {
               userid: person.userid,
               name: person.name,
               age: person.age,
-              job: person.job,
+              title: person.title,
               photos: photos
             }
           });
