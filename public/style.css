@@ -638,6 +638,46 @@ h2{
     text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:hover {
+  background-color: #dedede;
+}
+
+.info,
+.person,
+.person-photo-container {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #333;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.person-photo-container {
+  text-align: center;
+}
+
+.person-photo {
+  max-width: 100%;
+}
+
+.info p,
+.person p {
+  margin: 0;
+}
+
+.highlight {
+  background-color: #8eb35f;
+}
+
+.highlight a:hover {
+  background-color: #b4cb98;
+}
+
 .error-message {
   text-align: center;
   color: white;
@@ -645,42 +685,142 @@ h2{
   margin: 20px;
 }
 
-.game {
-  background-color: #fffe6e;
-  position: relative;
-  width: 300px;
-  min-height: 300px;
-  margin: 20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 24px;
+.add-photo-button-container {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 10;
+}
+
+#add-photo-button {
+  width: 64px;
+  height: 64px;
+  background-color: red;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 40px;
   font-weight: 200;
-  word-wrap: break-word;
+  padding: 0 0 8px 0;
+  cursor: pointer;
+  outline: none;
 }
 
-.game h2 {
-  margin: 20px;
-  text-align: center;
+#add-photo-button:hover {
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.33);
 }
 
-.game-body {
-  padding: 0 20px
+#modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-.game-list {
-  list-style-type: circle;
+#add-photo-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
 }
 
-.game p {
-  margin: 15px 0;
+.hidden {
+  display: none;
 }
 
-.game p.indent-wrapped {
-  padding-left: 50px;
-  text-indent: -50px;
+.modal-dialog {
+  width: auto;
+  max-width: 600px;
+  min-width: 350px;
+  min-height: 300px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
-.game .choice1,
-.game .choice2,
-.game .choice3 {
-  font-weight: bold;
+.modal-header {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.modal-close-button {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.photo-input-element {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.photo-input-element label {
+  font-weight: 600;
+  flex: 1 75px;
+  margin-right: 10px;
+}
+
+.photo-input-element input,
+.photo-input-element textarea {
+  flex: 6 200px;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+}
+
+.photo-input-element textarea {
+  min-height: 64px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 20px 10px;
+}
+
+.modal-footer button {
+  font-size: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modal-footer .modal-cancel-button:hover {
+  background-color: #eee;
+}
+
+.modal-footer .modal-accept-button {
+  background-color: #2464f5;
+  color: #fff;
+}
+
+.modal-footer .modal-accept-button:hover {
+  background-color: #5481e4;
 }

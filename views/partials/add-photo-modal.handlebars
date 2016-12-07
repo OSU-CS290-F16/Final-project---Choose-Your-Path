@@ -1,0 +1,31 @@
+<div class="add-photo-button-container">
+  <button id="add-photo-button">+</button>
+</div>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-photo-modal" class="hidden">
+  <div class="modal-dialog">
+
+    <div class="modal-header">
+      <h3>Add a Photo</h3>
+      <button type="button" class="modal-close-button">&times;</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="photo-input-element">
+        <label for="photo-url-input">URL</label>
+        <input type="text" id="photo-url-input">
+      </div>
+      <div class="photo-input-element">
+        <label for="photo-caption-input">Caption</label>
+        <textarea id="photo-caption-input"></textarea>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="modal-cancel-button">Cancel</button>
+      <button type="button" class="modal-accept-button">Add Photo</button>
+    </div>
+
+  </div>
+</div>

@@ -1,20 +1,25 @@
 {{> header}}
 
 <main>
-<body>
-		<div id="body">
-			<div id="content">
-				<p>
-					Name: {{person.name}}
-				</p>
-				<p>
-					Title: {{person.title}}
-				</p>
+	<body>
+			<div id="body">
+				<div id="content">
+					<div class="person">
+				    <p>
+				      Job: {{person.job}}
+				    </p>
+				    <p>
+				      Age: {{person.age}}
+				    </p>
+				  </div>
+				</div>
 			</div>
-		</div>
-        <!-- No idea why, but leaving this in here centers everything. -->
-        <div id="footer">
-</body>
+
+			{{#each person.photos}}
+				{{> person-photo}}
+			{{/each}}
+	</body>
 </main>
 
+{{> add-photo-modal}}
 {{> footer}}

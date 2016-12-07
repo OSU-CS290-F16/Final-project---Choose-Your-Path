@@ -1,153 +1,131 @@
 /*
- * This function removes a particular todo note when its dismiss button is
- * clicked.  This event listener should be delegated to the <main> element.
+ * This function displays the modal for adding a photo to a user page.
  */
-function removeTodoOnDelegatedDismissClick(event) {
-
-  var clickedElem = event.target;
-  var clickedElemParent = event.target.parentNode;
-
-  /*
-   * If the clicked element is the dismiss button of a todo note, then remove
-   * the todo from its parent.
-   */
-  if (clickedElem.classList.contains('dismiss-button') && clickedElemParent.classList.contains('todo')) {
-    var todoNoteElemParent = clickedElemParent.parentNode;
-    todoNoteElemParent.removeChild(clickedElemParent);
-  }
-
-}
-
-/*
- * This function shows the modal to add a new todo note when the add note
- * button is clicked.
- */
-function displayAddNoteModal() {
+function displayAddPhotoModal() {
 
   var backdropElem = document.getElementById('modal-backdrop');
-  var addNoteModalElem = document.getElementById('add-note-modal');
+  var addPhotoModalElem = document.getElementById('add-photo-modal');
 
   // Show the modal and its backdrop.
   backdropElem.classList.remove('hidden');
-  addNoteModalElem.classList.remove('hidden');
+  addPhotoModalElem.classList.remove('hidden');
 
 }
 
+
 /*
- * This function hides the modal to add a new todo note and clears any
- * existing values from the input fields whenever any of the modal close
- * actions are taken.
+ * This function closes the modal for adding a photo to a user page, clearing
+ * the values in its input elements.
  */
-function closeAddNoteModal() {
+function closeAddPhotoModal() {
 
   var backdropElem = document.getElementById('modal-backdrop');
-  var addNoteModalElem = document.getElementById('add-note-modal');
+  var addPhotoModalElem = document.getElementById('add-photo-modal');
 
   // Hide the modal and its backdrop.
   backdropElem.classList.add('hidden');
-  addNoteModalElem.classList.add('hidden');
+  addPhotoModalElem.classList.add('hidden');
 
-  clearTodoInputValues();
+  clearPhotoInputValues();
 
 }
 
-/*
- * This function clears any value present in any of the todo input elements.
- */
-function clearTodoInputValues() {
 
-  var todoInputElems = document.getElementsByClassName('todo-input-element');
-  for (var i = 0; i < todoInputElems.length; i++) {
-    var input = todoInputElems[i].querySelector('input, textarea');
+/*
+ * This function clears the values of all input elements in the photo modal.
+ */
+function clearPhotoInputValues() {
+
+  var inputElems = document.getElementsByClassName('photo-input-element');
+  for (var i = 0; i < inputElems.length; i++) {
+    var input = inputElems[i].querySelector('input, textarea');
     input.value = '';
   }
 
 }
 
+
 /*
- * This function inserts a new todo note based on the values specified in the
- * add note modal when the modal accept button is clicked.
+ * Small function to get a person's identifier from the current URL.
  */
-function insertNewTodo() {
+function getPersonIDFromLocation() {
+  var pathComponents = window.location.pathname.split('/');
+  if (pathComponents[0] !== '' && pathComponents[1] !== 'people') {
+    return null;
+  }
+  return pathComponents[2];
+}
 
-  // Grab the values from all the input fields.
-  var todoInputWhat = document.getElementById('todo-input-what').value || '';
-  var todoInputWhere = document.getElementById('todo-input-where').value || '';
-  var todoInputWhen = document.getElementById('todo-input-when').value || '';
-  var todoInputWho = document.getElementById('todo-input-who').value || '';
-  var todoInputDetails = document.getElementById('todo-input-details').value || '';
 
-  // We only add the note if we have a value for "what".
-  if (todoInputWhat.trim()) {
+/*
+ * This function uses Handlebars on the client side to generate HTML for a
+ * person photo and adds that person photo HTML into the DOM.
+ */
+function insertNewPhoto() {
 
-    // Create a new todo section and append it to the main element.
-    var newTodoHTML = generateTodoHTML(
-      todoInputWhat.trim(),
-      todoInputWhere.trim(),
-      todoInputWhen.trim(),
-      todoInputWho.trim(),
-      todoInputDetails.trim()
-    );
-    var mainElement = document.querySelector('main');
-    mainElement.insertAdjacentHTML('beforeend', newTodoHTML);
+  var photoURL = document.getElementById('photo-url-input').value || '';
+  var photoCaption = document.getElementById('photo-caption-input').value || '';
 
-    closeAddNoteModal();
+  if (photoURL.trim()) {
+
+    var personID = getPersonIDFromLocation();
+    if (personID) {
+      storePersonPhoto(personID, photoURL, photoCaption, function (err) {
+        if (err) {
+
+          // If we couldn't save the person photo, alert the user.
+          alert("Unable to save person's photo.  Got this error:\n\n" + err);
+
+        } else {
+
+          /*
+           * If we successfully saved the person photo, generate HTML for the
+           * new photo element and add it into the DOM.
+           */
+          var personPhotoTemplate = Handlebars.templates['person-photo'];
+          var personPhotoHTML = personPhotoTemplate({
+            url: photoURL,
+            caption: photoCaption
+          });
+          var mainElement = document.querySelector('main');
+          mainElement.insertAdjacentHTML('beforeend', personPhotoHTML);
+
+        }
+      });
+    }
+
+    closeAddPhotoModal();
 
   } else {
 
-    // If there's no "what" value specified, throw an alert.
-    alert('You must specify a value for the "what" field.');
+    alert('You must specify a value for the "URL" field.');
 
   }
 
 }
 
-/*
- * This function navigates to a user's notes when a user is selected from
- * the user select list.
- */
-function handleUserSelection(event) {
-
-  var userSelection = event.target.value;
-
-  if (userSelection) {
-    window.location.href = '/notes/' + userSelection;
-  }
-
-}
 
 // Wait until the DOM content is loaded to hook up UI interactions, etc.
 window.addEventListener('DOMContentLoaded', function (event) {
 
-  // Delegate an event listener to <main> to handle clicks on dismiss buttons.
-  var main = document.querySelector('main');
-  if (main) {
-    main.addEventListener('click', removeTodoOnDelegatedDismissClick);
+  var addPhotoButton = document.getElementById('add-photo-button');
+  if (addPhotoButton) {
+    addPhotoButton.addEventListener('click', displayAddPhotoModal);
   }
 
-  var addNoteButton = document.getElementById('add-note-button');
-  if (addNoteButton) {
-    addNoteButton.addEventListener('click', displayAddNoteModal);
-  }
-
-  var modalCloseButton = document.querySelector('#add-note-modal .modal-close-button');
+  var modalCloseButton = document.querySelector('#add-photo-modal .modal-close-button');
   if (modalCloseButton) {
-    modalCloseButton.addEventListener('click', closeAddNoteModal);
+    modalCloseButton.addEventListener('click', closeAddPhotoModal);
   }
 
-  var modalCancalButton = document.querySelector('#add-note-modal .modal-cancel-button');
+  var modalCancalButton = document.querySelector('#add-photo-modal .modal-cancel-button');
   if (modalCancalButton) {
-    modalCancalButton.addEventListener('click', closeAddNoteModal);
+    modalCancalButton.addEventListener('click', closeAddPhotoModal);
   }
 
-  var modalAcceptButton = document.querySelector('#add-note-modal .modal-accept-button');
+  var modalAcceptButton = document.querySelector('#add-photo-modal .modal-accept-button');
   if (modalAcceptButton) {
-    modalAcceptButton.addEventListener('click', insertNewTodo);
-  }
-
-  var userSelect = document.getElementById('user-select');
-  if (userSelect) {
-    userSelect.addEventListener('change', handleUserSelection);
+    modalAcceptButton.addEventListener('click', insertNewPhoto);
   }
 
 });
