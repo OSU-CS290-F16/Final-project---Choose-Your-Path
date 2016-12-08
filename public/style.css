@@ -36,6 +36,7 @@ img:hover {
   padding-bottom: 170px
 }
 #page div#header #logo {
+  background-color: transparent;
 	position:relative;
 	top:75px;
 }
@@ -560,6 +561,7 @@ a.Play:active {
 	font-size:10px;
 }
 #page #footer span a {
+  background-color: transparent;
 	font-family:"Trebuchet MS";
 	color:#ffffff;
 	text-decoration:none;
