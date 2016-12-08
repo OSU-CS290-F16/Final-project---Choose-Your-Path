@@ -59,6 +59,7 @@ img:hover {
 	margin:0 auto;
 }
 #page div#header ul.navigation li a {
+    background-color: transparent;
 	font-family:Volkhov;
 	font-size:20px;
 	font-weight:normal;
@@ -918,7 +919,8 @@ text-shadow: 2px 2px 5px #120c0b
 }
 
 .button a{
-
+    color: white;
+    background: transparent;
 }
 
 .button:hover span {
