@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 var app = express();
- // var usersData = require('./users-data');
+var usersData = require('./users-data');
 var port = process.env.PORT || 3000;
 
 /*
@@ -23,19 +23,7 @@ var mysqlConnection = mysql.createConnection({
     password: mysqlPassword,
     database: mysqlDB
   });
-/*
- * Make a connection to our MySQL database.  This connection will persist for
- * as long as our server is running.
- */
-// mysqlConnection.connect(function(err) {
-//   if (err) {
-//     console.log("== Unable to make connection to MySQL Database.")
-//     throw err;
-//   }
-//   else {
-//       next();
-//   }
-// });
+
 
 /*
  * Set up Express to use express-handlebars as the view engine.  This means
@@ -75,6 +63,7 @@ app.get('/home', function (req, res) {
 app.get('people/home.html', function (req, res) {
   res.render('home-page', {
     pageTitle: 'Home'
+    usersData: usersData
   });
 });
 
@@ -82,6 +71,7 @@ app.get('people/home.html', function (req, res) {
 app.get('/home.html', function (req, res) {
   res.render('home-page', {
     pageTitle: 'Home'
+    usersData: usersData
   });
 });
 
