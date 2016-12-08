@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 var app = express();
-var usersData = require('./users-data');
+//var usersData = require('./users-data');
 var port = process.env.PORT || 3000;
 
 /*
@@ -63,7 +63,6 @@ app.get('/home', function (req, res) {
 app.get('people/home.html', function (req, res) {
   res.render('home-page', {
     pageTitle: 'Home'
-    usersData: usersData
   });
 });
 
@@ -71,7 +70,6 @@ app.get('people/home.html', function (req, res) {
 app.get('/home.html', function (req, res) {
   res.render('home-page', {
     pageTitle: 'Home'
-    usersData: usersData
   });
 });
 

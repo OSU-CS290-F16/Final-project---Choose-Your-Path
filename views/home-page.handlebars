@@ -22,8 +22,9 @@
 		</div>
 
 
-  {{>todo}}
-
+		{{#each notes}}
+      {{> todo}}
+    {{/each}}
         <!-- No idea why, but leaving this in here centers everything. -->
         <div id="footer">
 </body>
@@ -31,6 +32,7 @@
 <script src="/todo-template.js"></script>
 <script src="/generate-todo.js"></script>
 <script src="/index.js"></script>
+
 </main>
 
 {{> footer}}
