@@ -73,9 +73,9 @@ function insertNewTodo() {
   // Grab the values from all the input fields.
   var todoInputWhat = document.getElementById('todo-input-what').value || '';
   var todoInputWhere = document.getElementById('todo-input-where').value || '';
-  var todoInputWhen = document.getElementById('todo-input-when').value || '';
-  var todoInputWho = document.getElementById('todo-input-who').value || '';
-  var todoInputDetails = document.getElementById('todo-input-details').value || '';
+  // var todoInputWhen = document.getElementById('todo-input-when').value || '';
+  // var todoInputWho = document.getElementById('todo-input-who').value || '';
+  // var todoInputDetails = document.getElementById('todo-input-details').value || '';
 
   // We only add the note if we have a value for "what".
   if (todoInputWhat.trim()) {
@@ -83,10 +83,10 @@ function insertNewTodo() {
     // Create a new todo section and append it to the main element.
     var newTodoHTML = generateTodoHTML(
       todoInputWhat.trim(),
-      todoInputWhere.trim(),
-      todoInputWhen.trim(),
-      todoInputWho.trim(),
-      todoInputDetails.trim()
+      todoInputWhere.trim()
+    //   todoInputWhen.trim(),
+    //   todoInputWho.trim(),
+    //   todoInputDetails.trim()
     );
     var mainElement = document.querySelector('main');
     mainElement.insertAdjacentHTML('beforeend', newTodoHTML);

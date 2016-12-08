@@ -14,9 +14,9 @@ function generateTodoHTML(what, where, when, who, details) {
         what: what,
             body: {
                 where: where,
-                when: when,
-                who: who,
-                details: details
+                // when: when,
+                // who: who,
+                // details: details
             }
     }
 

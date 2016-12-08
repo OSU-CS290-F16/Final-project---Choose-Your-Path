@@ -3,7 +3,7 @@
 templates['todo'] = template({"1":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "        <p class=\"indent-wrapped\"><span class=\"where\">where: </span>"
+  return "        <p class=\"indent-wrapped\"><span class=\"where\">   </span>"
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.body : depth0)) != null ? stack1.where : stack1), depth0))
     + "</p>\r\n";
 },"3":function(container,depth0,helpers,partials,data) {
