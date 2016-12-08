@@ -158,9 +158,45 @@ app.get('/dialog2.html', function (req, res) {
   });
 });
 
+app.get('/dialog21.html', function (req, res) {
+  res.render('dialog21-page', {
+    pageTitle: 'Dialog #2.1'
+  });
+});
+
+app.get('/dialog22.html', function (req, res) {
+  res.render('dialog22-page', {
+    pageTitle: 'Dialog #2.2'
+  });
+});
+
+app.get('/dialog23.html', function (req, res) {
+  res.render('dialog23-page', {
+    pageTitle: 'Dialog #2.3'
+  });
+});
+
 app.get('/dialog3.html', function (req, res) {
   res.render('dialog3-page', {
     pageTitle: 'Dialog #3'
+  });
+});
+
+app.get('/dialog31.html', function (req, res) {
+  res.render('dialog31-page', {
+    pageTitle: 'Dialog #3.1'
+  });
+});
+
+app.get('/dialog32.html', function (req, res) {
+  res.render('dialog32-page', {
+    pageTitle: 'Dialog #3.2'
+  });
+});
+
+app.get('/dialog33.html', function (req, res) {
+  res.render('dialog33-page', {
+    pageTitle: 'Dialog #3.3'
   });
 });
 
