@@ -96,7 +96,7 @@ function insertNewTodo() {
   } else {
 
     // If there's no "what" value specified, throw an alert.
-    alert('You must specify a value for the "what" field.');
+    alert('You must input a User Name.');
 
   }
 

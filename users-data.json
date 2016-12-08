@@ -1,0 +1,72 @@
+{
+  "luke": {
+    "name": "Luke Skywalker",
+    "notes": [
+      {
+        "what": "Meet up with Dad",
+        "body": {
+          "where": "Cloud City Bridge",
+          "details": "Don't forget lightsaber"
+        }
+      },
+      {
+        "what": "Pick up Han",
+        "body": {
+          "where": "Jabba's"
+        }
+      }
+    ]
+  },
+
+  "albert": {
+    "name": "Albert Einstein",
+    "notes": [
+      {
+        "what": "Investigate that dumb constant value"
+      }
+    ]
+  },
+
+  "stephen": {
+    "name": "Stephen Curry",
+    "notes": [
+      {
+        "what": "Pick up MVP trophy",
+        "body": {
+          "where": "Bay Bridge Trophy Polishing",
+          "details": "1402 Mandella Parkway, Oakland"
+        }
+      },
+      {
+        "what": "Win another Championship",
+        "body": {
+          "when": "2017",
+          "who": "with the Warriors"
+        }
+      }
+    ]
+  },
+
+  "donald": {
+    "name": "Donald Knuth",
+    "notes": [
+      {
+        "what": "Finish TAOCP Volume 5"
+      },
+      {
+        "what": "Start Volume 6",
+        "body": {
+          "when": "tomorrow",
+          "details": "context free languages"
+        }
+      },
+      {
+        "what": "Start Volume 7",
+        "body": {
+          "when": "Saturday",
+          "details": "compilers"
+        }
+      }
+    ]
+  }
+}

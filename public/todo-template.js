@@ -27,7 +27,7 @@ templates['todo'] = template({"1":function(container,depth0,helpers,partials,dat
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : {};
 
-  return "\r\n<section class=\"todo\">\r\n  <div class=\"dismiss-button\">&times;</div>\r\n  <h2>"
+  return "\r\n<section class=\"todo\">\r\n  \r\n  <h2>"
     + container.escapeExpression(((helper = (helper = helpers.what || (depth0 != null ? depth0.what : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(alias1,{"name":"what","hash":{},"data":data}) : helper)))
     + "</h2>\r\n  <div class=\"todo-body\">\r\n"
     + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.body : depth0)) != null ? stack1.where : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")

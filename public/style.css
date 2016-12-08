@@ -954,6 +954,47 @@ text-shadow: 2px 2px 5px #120c0b
   outline: none;
 }
 
+
+.todo {
+  background-color: transparent;
+  position: relative;
+  width: 600px;
+  min-height: 200px;
+  margin: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.todo h2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.todo-body {
+  padding: 0 20px
+}
+
+.todo-list {
+  list-style-type: circle;
+}
+
+.todo p {
+  margin: 15px 0;
+}
+
+.todo p.indent-wrapped {
+  padding-left: 50px;
+  text-indent: -50px;
+}
+
+.todo .when,
+.todo .where,
+.todo .who {
+  font-weight: bold;
+}
+
 .todo .dismiss-button {
   font-family: sans-serif;
   position: absolute;
@@ -976,9 +1017,12 @@ text-shadow: 2px 2px 5px #120c0b
 }
 
 
+
 #add-note-button:hover {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.33);
 }
+
+
 
 #modal-backdrop {
   position: fixed;

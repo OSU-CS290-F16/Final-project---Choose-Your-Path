@@ -1,0 +1,40 @@
+{{!--
+
+  You should write a Handlebars template here to generate a complete todo
+  note.  Remember the structure of the todo note from our previous assignments:
+
+  <section class="todo">
+    <h2>The header for the todo note goes here (the what value)</h2>
+    <div class="todo-body">
+      <p class="indent-wrapped"><span class="where">where: </span>some value</p>
+      <p class="indent-wrapped"><span class="when">when: </span>some value</p>
+      <p class="indent-wrapped"><span class="who">who: </span>some value</p>
+      <p>the details go here</p>
+    </div>
+    <div class="dismiss-button">&times;</div>
+  </section>
+
+  The where, when, and who fields and the details are only included if a value
+  is supplied.  Refer to the notes data in users-data.json to know how the
+  provided data will be structured.
+
+  A start for the note template is given to you below.
+
+  --}}
+
+<section class="todo">
+  <!-- <div class="dismiss-button">&times;</div> -->
+  <h2>{{what}}</h2>
+  <div class="todo-body">
+    {{#if body.where}}
+        <p class="indent-wrapped"><span class="where">Username: </span>{{body.where}}</p>
+    {{/if}}
+
+    {{#if body.when}}
+        <p class="indent-wrapped"><span class="when">Comment: </span>{{body.when}}</p>
+    {{/if}}
+
+
+
+  </div>
+</section>
