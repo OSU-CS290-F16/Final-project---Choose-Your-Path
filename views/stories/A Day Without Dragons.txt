@@ -31,18 +31,21 @@ As usual you went to the river to take a walk, but something was different this 
 You heard screams, and you...(Choose what you would like to do)
 
 1- Choice: Go towards the town
-Dialog 1:
+Dialog 1.:
 	The town is on fire, the villagers run desperately trying to rescue their families and possessions from their blazing homes. An army of men dressed with golden armor raid the city, but they don’t seem like common thieves, in fact they don’t take anything from the houses. You wonder what is happening when a soldier notices you and begins to chase you. You now remember a story your grandfather used to tell you about men dressed as the sun, those men dressed in golden armor are the dragons' soldiers.
 
 	1.1 - Choice: Confront the soldier
+			Dialog1.1
 			Before you can move a spout of flame falls from the sky and in a second all the soldiers are gone.
 			There is no trace of them, not even a piece of armor. Suddenly you hear those strange screams. You follow the noise till you reach a beautiful hot spring.
 			At the shore of the hot spring you notice a scaled figure covered in blood. As you approach you realize its a dragon. You have never seen one before, but you had heard of these large scaled creatures that breathe fire.
 
 	1.2 - Choice: Run towards the forest
+			Dialog1.2
 			You enter the forest and you hear the soldiers footsteps as they enter the town. You duck into some near-by bushes, and wait until you can distinguish both the location and the intentions of the soldiers. As the soldiers come into sight, you see that the soldiers are dragging a chain net. At first you don't realize what is in it, it looks strange and foreign, but it dawns on you that it is a dragon! The dragon moves desperately to break from the net and after some struggle he escapes and kills the soldiers. The dragon hasn't noticed you, but you can see how his movements are getting slower as he seems to be losing blood from the wound on his side.
 
 	1.3 - Choice: Play dead
+			Dialog1.3
 			The soldier approaches you aggressively. His brows are furrowed, and he draws his sword, and quickly slashes at you. You feel a shot of pain in your abdomen and fall to the ground. With his business done, the soldier walks back to his troupe. You realize you aren't mortally hurt, but it was such a surprise that he did that! Not wanting to confront another solider, or worse, have them actually kill you, you decide to just lay there pretending to be dead.
 
 			You see smoke in the forest some distance off, the soldiers notice it, and head in that direction. You're safe now, the soldiers are gone, no one is around. You stand up, looking around, and see the ruin the soldiers have caused. Not too far away, you see the debris of a building move a little. There is someone trapped under it. Quickly you get up an rush over there to help whoever is trapped under the rubble. Heaving away some lumber you see moving scales. The thing under the rubble is finally able to shake off the rest of the rubble, revealing a dragon, with a gash in it's side.

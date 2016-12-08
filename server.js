@@ -122,9 +122,33 @@ app.get('/OurGame', function (req, res) {
 });
 
 // Render the game page for the root URL path ('/dialog1.html').
+app.get('/dialog.html', function (req, res) {
+  res.render('dialog-page', {
+    pageTitle: 'Dialog'
+  });
+});
+
 app.get('/dialog1.html', function (req, res) {
   res.render('dialog1-page', {
     pageTitle: 'Dialog #1'
+  });
+});
+
+app.get('/dialog11.html', function (req, res) {
+  res.render('dialog11-page', {
+    pageTitle: 'Dialog #1.1'
+  });
+});
+
+app.get('/dialog12.html', function (req, res) {
+  res.render('dialog12-page', {
+    pageTitle: 'Dialog #1.2'
+  });
+});
+
+app.get('/dialog13.html', function (req, res) {
+  res.render('dialog13-page', {
+    pageTitle: 'Dialog #1.3'
   });
 });
 
