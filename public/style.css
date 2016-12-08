@@ -880,6 +880,11 @@ text-shadow: 2px 2px 5px #120c0b
     margin-bottom:25px;
 }
 
+.death{
+    max-width: 20%;
+    margin-left: 350px;
+}
+
 .button {
   float: right;
   display: inline-block;
@@ -910,6 +915,10 @@ text-shadow: 2px 2px 5px #120c0b
   top: 0;
   right: -20px;
   transition: 0.5s;
+}
+
+.button a{
+
 }
 
 .button:hover span {
