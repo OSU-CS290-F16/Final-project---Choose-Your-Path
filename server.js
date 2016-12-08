@@ -31,6 +31,9 @@ var mysqlConnection = mysql.createConnection({
 //     console.log("== Unable to make connection to MySQL Database.")
 //     throw err;
 //   }
+//   else {
+//       next();
+//   }
 // });
 
 /*
