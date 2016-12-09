@@ -3,7 +3,7 @@ TAs, please look at this link for the final project's grading.
 
 *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
 
-https://github.com/OSU-CS290-F16/Final-project---Choose-Your-Path
+https://github.com/TeresitaCGNader/Local-Final-Project---Choose-Your-Path/blob/master/README.md
 
 *~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
 
